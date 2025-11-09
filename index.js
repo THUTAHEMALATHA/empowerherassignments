@@ -12,3 +12,10 @@ function isPrime(num) {
     }
     return true;
 }
+
+// 
+function evenOdd(num) {
+  return num % 2 === 0;
+}
+console.log(evenOdd(4)); // Output: true
+console.log(evenOdd(7)); // Output: false
