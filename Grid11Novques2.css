@@ -1,0 +1,81 @@
+body {
+      background: #f7fafd;
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80vw;
+      max-width: 950px;
+      margin: 45px auto;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 22px 0 36px 0;
+    }
+    .title {
+      font-size: 2.7rem;
+      text-align: center;
+      font-family: 'Pacifico', cursive, Arial, sans-serif;
+      font-weight: bold;
+      margin-bottom: 22px;
+      color: #23213b;
+    }
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: 100px repeat(5, 1fr);
+      grid-template-rows: 50px repeat(9, 44px) 44px;
+      gap: 6px;
+      padding: 0 16px;
+    }
+    .schedule-grid .header {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.15rem;
+      border-radius: 16px 16px 0 0;
+      padding: 12px 0;
+    }
+    .header-monday { background: #ffd6e5; color: #393F67;}
+    .header-tuesday { background: #fff6cb; color: #393F67;}
+    .header-wednesday { background: #f4d0ec; color: #393F67;}
+    .header-thursday { background: #fff5ce; color: #393F67;}
+    .header-friday { background: #ffe3f1; color: #393F67;}
+    .time {
+      background: #d0f6fa;
+      text-align: center;
+      font-weight: bold;
+      color: #315c74;
+      border-radius: 16px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cell-monday { background: #ffe5f1;}
+    .cell-tuesday { background: #fffce4;}
+    .cell-wednesday { background: #f9e8f6;}
+    .cell-thursday { background: #fff8dd;}
+    .cell-friday { background: #fbe5ef;}
+    .cell {
+      border-radius: 13px;
+      text-align: center;
+      font-size: 1rem;
+      color: #222;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 32px;
+    }
+    .note-row {
+      background: #c7f3f8;
+      grid-column: 1/7;
+      border-radius: 13px;
+      color: #262626;
+      padding-left: 20px;
+      align-items: center;
+      display: flex;
+      font-size: 1rem;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
